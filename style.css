@@ -1,0 +1,57 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(dogs/grass.jpg);
+}
+p{
+  color:black;
+}
+
+h1{
+  color:black;
+}
+
+figcaption{
+  width: 200px;
+  background-color: white;
+  color:black
+}
+
+.pinkback{
+  background-image: url(dogs/glitter.gif)
+}
+
+.pinkback2{
+  background-image: url(dogs/glitter.gif)
+}
+
+
+.pawback{
+  background-color: white;
+}
+
+#player {
+ width: 70%;
+ height: 25px;
+}
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-image: url(dogs/crustydogSMALLEST.gif);
+     color: #ffffff;
+     }
+
+
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
