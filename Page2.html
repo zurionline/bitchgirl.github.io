@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" filter: invert(100%);>
   <head>
+    filter: invert(1);
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
-
   </head>
-  <figure>
+ <!--everything not credited was F2U w/out credit or a commercial image but I may go back and add it later if I have time-->
 
-
-
-</figure> <!--everything not credited was F2U w/out credit or a commercial image but I may go back and add it later if I have time-->
-<p class="pinkback" style="font-size: 30px;">
+<body>
+<div><p class="pinkback" style="font-size: 30px;">
   &nbsp
-</p>
+</p></div>
 
 
 <div>
+  <p>&nbsp</p>
+  <img width=100px src="dogs/blank.png"></img>
   <img height= 100px src="dogs/crustydog.gif" alt="Glittery gif of poodle with crusty eyes" ></img>
   <img height=100px src="dogs/bitchgirl.gif" alt="BITCHGIRL in glittery pink letters"></img>
+  <img width=100px src="dogs/blank.png"></img>
   <img height= 100px src="dogs/crustydog.gif" alt="Glittery gif of poodle with crusty eyes"></img>
 </div>
 
-<p class="pinkback" style="font-size: 30px;">
-⊹˚. ♡ welcome to my blog! ♡ .˚⊹
+<p style="color: rgb(0, 0, 0); font-size: 30px; " class="pinkback">
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ⊹˚. ♡ wel &nbsp &nbsp come to my blog&nbsp &nbsp &nbsp! ♡ .˚⊹
 </p>
 
 <div>
@@ -33,7 +34,7 @@
   id="player" 
   controls autoplay 
   controls loop
-  controls src="dogs/Puppy_Waltz_Box_Nintendogs_(OST).mp3">
+  controls src="dogs/puppyslow.mp3">
   Your browser does not support the audio tag.</audio>
 </figure>
 </div>
@@ -47,17 +48,39 @@
     </div>
 </body>
 
-<
 
 
 <p class="pinkback" style="font-size: 30px;">
-  &nbsp<br>&nbsp
+  &nbsp
 </p>
 
+
+<body>
+  <div  class ="pawback">
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "iamadog";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="Page3.html";
+        }
+        else{
+            alert("Passwords do not match. Hint: Date translatable with a A1Z26 cipher");
+        }
+    }
+</script>
+</div>
+</body>
 <!--
 <div>
 <img width = 300px src = "" alt="" ></img>
 </div>
 -->
-
+</body>
 </html>
