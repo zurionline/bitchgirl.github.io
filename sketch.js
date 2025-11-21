@@ -251,7 +251,7 @@ class dragSquare{
     rect(this.x, this.y, this.s, this.s);//change this to an image setup instead
   }
   
-  checkDrag(x,y){
+  checkDrag(){
  if(mouseX>=this.x&&mouseX<=this.x+this.s&&mouseY>=this.y&&mouseY<=this.y+this.s){
       this.x = mouseX-this.s/2;
       this.y = mouseY-this.s/2;
