@@ -21,7 +21,7 @@ let y;
 let touch=0
 
 function preload(){
-   img=loadImage('/dogs/acwwb.jpg')
+   img=loadImage('dogs/acwwb.jpg')
 }
 
 
