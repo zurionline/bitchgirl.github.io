@@ -20,6 +20,9 @@ let x;
 let y;
 let touch=0
 
+function preload(){
+   img=loadImage('/dogs/acwwb.jpg')
+}
 
 
 function setup() {
@@ -140,6 +143,8 @@ if(game3==true){
     fill(255,0,0)
     rect(0,0,width,height)
   } 
+  
+  image(img,100,100,100,100)
 }
 
 function mouseDragged(){
