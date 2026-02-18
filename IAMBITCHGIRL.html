@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.11/lib/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="dogs/SITEICON.gif">
+    <title>IAMBITCHGIRL</title>
+    <meta charset="utf-8" />
+
+  </head>
+ <!--everything not credited was F2U w/out credit or a commercial image but I may go back and add it later if I have time-->
+
+
+
+<body>
+ 
+<div><p class="pinkback" style="font-size: 30px;">
+  &nbsp
+</p></div>
+
+
+<div>
+  <p>&nbsp</p>
+  <img width=100px src="dogs/blank.png"></img>
+  <img height= 100px src="dogs/crustydogflipped.gif" alt="Glittery gif of poodle with crusty eyes" ></img>
+  <img height=100px src="dogs/bitchgirl.gif" alt="BITCHGIRL in glittery pink letters"></img>
+  <img width=100px src="dogs/blank.png"></img>
+  <img height= 100px src="dogs/crustydog.gif" alt="Glittery gif of poodle with crusty eyes"></img>
+</div>
+
+<p style="color: rgb(0, 0, 0); font-size: 30px; " class="pinkback">
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ⊹˚. ♡ wel &nbsp &nbsp come to my blog&nbsp &nbsp &nbsp! ♡ .˚⊹
+</p>
+
+<div>
+<figure>
+  <audio 
+  id="player" 
+  controls autoplay 
+  controls loop
+  controls src="dogs/puppyslow.mp3">
+  Your browser does not support the audio tag.</audio>
+</figure>
+</div>
+
+
+<div>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+    </div>
+</div>
+
+
+
+<p class="pinkback" style="font-size: 30px;">
+  &nbsp
+</p>
+
+
+
+  <div  class ="pawback">
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "BITCHGIRL";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="WEAREBITCHGIRL.html";
+        }
+        else{
+            alert("Passwords do not match. Hint: What am I?");
+        }
+    }
+</script>
+
+<!--
+<div>
+<img width = 300px src = "" alt="" ></img>
+</div>
+-->
+
+</div>
+
+
+</body>
+</html>
